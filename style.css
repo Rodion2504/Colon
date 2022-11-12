@@ -7,22 +7,12 @@ body {
   color: #333;
   padding: 1em;
 }
-
-ul{
+/*  Рендерим элементы как колонки */
+container {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-height: 300px;
-  padding: 0;
+  flex-flow: column wrap;
 }
-li{
-  width: 33%;
-  height: 100px;
-  background: red;
-  background-clip: content-box;
-  padding: 10px;
-  list-style: none;
-}
+
 article {
   -webkit-column-count: 2;
   -moz-column-count: 2;
