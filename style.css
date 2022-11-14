@@ -121,8 +121,8 @@
           max-width: 100%;
     }
 }
-col {
-	background: $blue;
+.col {
+	background-color: #0d6efd;
 	float: left;
 	margin-left: 3.2%;
 	margin-bottom: 30px;
