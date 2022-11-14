@@ -121,12 +121,6 @@
           max-width: 100%;
     }
 }
-.col {
-	background-color: #0d6efd;
-	float: left;
-	margin-left: 3.2%;
-	margin-bottom: 30px;
-}
 .row align-items-start{
 	background-color: #0d6efd;
 }
