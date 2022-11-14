@@ -30,8 +30,34 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 3.157em;
+    font-family:Arial, san-serif;
+    font-size:24px;
+    color:rgba(0,0,0,0.54);
+    text-align:center;
+}
+main, .main_content, .main_sidebar   {
+    position:relative;
+    display:block;
+
+}
+
+main {
+    width:100%;
+    max-width:1024px;
+    margin-top:50px;
+    overflow:hidden;
+}
+
+.main_sidebar {
+    float:left;
+    width: 100px;
+    height:auto;
+    background:red;
+
+}
+
+.main_content {
+background:green;
 }
 
 h2 {font-size: 2.369em;}
